@@ -1,0 +1,4 @@
+[console_scripts]
+control_bridge_node = robot_ai_system.control_bridge_node:main
+decision_node = robot_ai_system.decision_node:main
+vision_node = robot_ai_system.vision_node:main
