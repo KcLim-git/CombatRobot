@@ -171,11 +171,13 @@ class VisionNode(Node):
         unique_labels = sorted(list(set(labels)))
 
         # ---------------- PUBLISH TO ROS2 ----------------
+        t_vision = time.time()
+
         msg_dict = {
-            "timestamp": time.time(),
-            "labels": unique_labels,
-            "enemy": enemy_info
-        }
+        "t_vision": t_vision,
+        "labels": unique_labels,
+        "enemy": enemy_info
+    }
 
         msg = String()
         msg.data = json.dumps(msg_dict)

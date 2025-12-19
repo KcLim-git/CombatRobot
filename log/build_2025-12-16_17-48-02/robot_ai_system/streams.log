@@ -1,0 +1,19 @@
+[0.532s] Invoking command in '/home/kc2/ros2_ws/build/robot_ai_system': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kc2/ros2_ws/build/robot_ai_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kc2/ros2_ws/install/robot_ai_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kc2/ros2_ws/build/robot_ai_system/build --no-deps symlink_data
+[0.708s] running develop
+[0.810s] running egg_info
+[0.820s] writing robot_ai_system.egg-info/PKG-INFO
+[0.820s] writing dependency_links to robot_ai_system.egg-info/dependency_links.txt
+[0.820s] writing entry points to robot_ai_system.egg-info/entry_points.txt
+[0.820s] writing requirements to robot_ai_system.egg-info/requires.txt
+[0.820s] writing top-level names to robot_ai_system.egg-info/top_level.txt
+[0.840s] reading manifest file 'robot_ai_system.egg-info/SOURCES.txt'
+[0.840s] writing manifest file 'robot_ai_system.egg-info/SOURCES.txt'
+[0.851s] running build_ext
+[0.851s] Creating /home/kc2/ros2_ws/install/robot_ai_system/lib/python3.12/site-packages/robot-ai-system.egg-link (link to .)
+[0.851s] Installing control_bridge_node script to /home/kc2/ros2_ws/install/robot_ai_system/lib/robot_ai_system
+[0.852s] Installing decision_node script to /home/kc2/ros2_ws/install/robot_ai_system/lib/robot_ai_system
+[0.852s] Installing vision_node script to /home/kc2/ros2_ws/install/robot_ai_system/lib/robot_ai_system
+[0.852s] 
+[0.852s] Installed /home/kc2/ros2_ws/build/robot_ai_system
+[0.852s] running symlink_data
+[0.869s] Invoked command in '/home/kc2/ros2_ws/build/robot_ai_system' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/kc2/ros2_ws/build/robot_ai_system/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/kc2/ros2_ws/install/robot_ai_system/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/kc2/ros2_ws/build/robot_ai_system/build --no-deps symlink_data
